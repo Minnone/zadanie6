@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+    <link id="theme-style" rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome <span id="username"></span>!</h1>
+        
+        <div class="data-section">
+            <h2>Cached Data</h2>
+            <button id="refresh-data">Обновить данные</button>
+            <div id="dataContainer">
+                <p>Загрузка данных...</p>
+            </div>
+        </div>
+        
+        <div class="actions">
+            <button id="logout-btn">Выйти</button>
+            <div class="theme-switcher">
+                <button id="theme-toggle">Сменить тему</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
